@@ -7,7 +7,9 @@
     "preview": "vite preview --port 5050"
   },
   "dependencies": {
-    "vue": "^3.2.31"
+    "vee-validate": "^4.5.10",
+    "vue": "^3.2.31",
+    "yup": "^0.32.11"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.2.2",
