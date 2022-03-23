@@ -17,12 +17,12 @@ this.$emit("submit");
 <template>
 <div class="input-group">
 <input
-type="text"
-class="form-control"
-placeholder="Nhập thông tin cần tìm"
-:value="modelValue"
-@input="updateModelValue"
-@keyup.enter="submit"
+    type="text"
+    class="form-control"
+    placeholder="Nhập thông tin cần tìm"
+    :value="modelValue"
+    @input="updateModelValue"
+    @keyup.enter="submit"
 />
 <div class="input-group-append">
 <button

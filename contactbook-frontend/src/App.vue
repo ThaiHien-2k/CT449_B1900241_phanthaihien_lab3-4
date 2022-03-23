@@ -4,7 +4,7 @@ export default {
   components: {
     AppHeader,
   },
-}
+};
 </script>
 <template>
   <div id="app">
