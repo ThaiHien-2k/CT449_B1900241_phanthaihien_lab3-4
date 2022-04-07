@@ -33,7 +33,7 @@ this.contact = await ContactService.get(id);
 console.log(error);
 // Chuyển sang trang NotFound đồng thời giữ cho URL không đổi
 this.$router.push({
-    name: "NotFound",
+name: "NotFound",
 params: {
 pathMatch: this.$route.path.split("/").slice(1)
 },
